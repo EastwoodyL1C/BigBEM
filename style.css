@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header__logo{
+    max-width: 161px;
+}
+.header__logo img{
+    max-width: 80px;
+    max-height: 80px;
+}
+.header__nav {
+}
+.header__link {
+    max-width: 161px;
+}
+.main {
+}
+.main__block1 {
+}
+.block1 {
+}
+.block1__title {
+}
+.block1__description {
+}
+.main__block2 {
+}
+.block2 {
+}
+.block2__title {
+}
+.block2__item {
+}
+.item1 {
+}
+.item1__describtion {
+}
+.item1__link {
+}
+.item2 {
+}
+.item2__describtion {
+}
+.item2__link {
+}
+.block2-image {
+    max-width: 534px;
+    height: 100%;
+}
+.main__block3 {
+}
+.block3 {
+}
+.block3__title {
+}
+.block3__descriprion {
+}
+.block3__list {
+}
+.main__block4 {
+}
+.block4 {
+}
+.block4__item3 {
+}
+.item3 {
+}
+.item3__title {
+}
+.item3__descriprion {
+}
+.block4-image {
+    max-width: 240px;
+    height: 100%;
+}
+.main__block5 {
+}
+.block5 {
+}
+.block5__title {
+}
+.block5_item {
+}
+.item4 {
+}
+.item4__comment {
+}
+.item4__id {
+}
+.item4__workplace {
+}
+.item5 {
+}
+.item5__comment {
+}
+.item5__id {
+}
+.item5__workplace {
+}
+.footer__logo {
+    max-width: 81px;
+    height: 100%;
+}
+.footer_block {
+}
+.block6 {
+}
+.block6__info {
+}
+.block6__link {
+}
+.link {
+padding: 20px 0px 23px 0px
+}
+.link img{
+    max-width: 30px;
+    padding: 0px 5px;
+}
+.link-linkedIn {
+}
+.block6__licence {
+}

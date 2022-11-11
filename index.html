@@ -5,20 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Big BEM</title>
-    <link rel="shortcut icon" href="image\favicon.png" type="image/png">
+    <link rel="shortcut icon" href="img\favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <div class="header-logo"></div>
-        <nav class="header-nav">
-            <ul>
-                <li><a href="$" alt="Product">Product</a></li>
-                <li><a href="$" alt="Product">About</a></li>
-                <li><a href="$" alt="Product">Contacts</a></li>
-            </ul>
-        </nav>
-        <a href="$" class="header-link">Download Now</a>
+    <div class="container">
+        <header class="header">
+            <img src="img\header__logo.svg" alt="header" class="header__logo">
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="$" alt="Product">Product</a></li>
+                    <li><a href="$" alt="Product">About</a></li>
+                    <li><a href="$" alt="Product">Contacts</a></li>
+                </ul>
+            </nav>
+            <a href="$" class="header__link">Download Now</a>
+        </header>
+        <main class="main">
+            <div class="main__block1 block1">
+                <h1 class="block1__title">Fast and powerful, just like your work</h1>
+                <p class="block1__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="main__block2 block2">
+                <h2 class="block2__title">Nulla commodo aliqua aliqua ut</h2>
+                <div class="block2__item item1">
+                    <p class="item1__describtion">Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+                    <a href="#" class="item1__link">Read more ➤</a>
+                </div>
+                <div class="block2__item item2">
+                    <p class="item2__describtion">Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+                    <a href="#" class="item2__link">Read more ➤</a>
+                </div>
+                <img src="img\img1.png" alt="img1" class="block2-image">
+            </div>
+            <div class="main__block3 block3">
+                <h3 class="block3__title">Nulla ut ea</h3>
+                <p class="block3__descriprion">Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation velit ea incididunt</p>
+                <ul class="block3__list">
+                    <li>Graphic Design</li>
+                    <li>UX Design</li>
+                    <li>Prototyping</li>
+                    <li>Webflow</li>
+                    <li>Branding</li>
+                    <li>Coding</li>
+                    <li>Back-End</li>
+                </ul>
+            </div>
+            <div class="main__block4 block4">
+                <div class="block4__item3 item3">
+                    <h3 class="item3__title">Where teams design together</h3>
+                    <p class="item3__descriprion">Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+                </div>
+                <img src="img\img2.png" alt="img2" class="block4-image">
+                <img src="img\img3.png" alt="img3" class="block4-image">
+                <img src="img\img4.png" alt="img4" class="block4-image">
+            </div>
+            <div class="main__block5 block5">
+                <h2 class="block5__title">Nulla commodo aliqua aliqua ut</h2>
+                <div class="block5_item item4">
+                    <p class="item4__comment">Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim nostrud dolor qui.</p>
+                    <p class="item4__id">Ralph Richards</p>
+                    <p class="item4__workplace">UX Designer</p>
+                </div>
+                <div class="block5_item item5">
+                    <p class="item5__comment">Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation velit ea incididunt sit qui do ipsum fugiat laboris minim nostrud dolor qui.</p>
+                    <p class="item5__id">Angel Wilson</p>
+                    <p class="item5__workplace">UX Designer</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <img src="img\footer__logo.svg" alt="footer" class="footer__logo">
+            <div class="footer_block block6">
+                <p class="block6__info">cillum incididunt</p>
+                <div class="block6__link link">
+                    <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-linkedin-logo-white-black-png.png" alt="linkedIn" class="link-linkedIn">
+                    <img src="https://cdn-icons-png.flaticon.com/512/81/81609.png" alt="twitter" class="link-twitter">
+                    <img src="https://cdn-icons-png.flaticon.com/512/59/59439.png" alt="facebook" class="link-facebook">
+                    <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png?w=360" alt="instagram" class="link-instagram">
+                </div>
+                <p class="block6__licence">Nostrud aliquip laboris © 2020 Wirefigma</p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
